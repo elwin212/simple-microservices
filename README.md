@@ -1,3 +1,9 @@
-# Microservices
-![Screenshot 2021-11-30 at 12 32 51](https://user-images.githubusercontent.com/40702606/144061535-7a42e85b-59d6-4f7f-9c35-18a48b49e6de.png)
+# simple-microservices
 
+The diagram shows the architecture of this simple microservices.
+
+For load balancing, you can use ELB, Azure Load Balancer, or any other provider you prefer. Similarly, you can use SQS or RabbitMQ for message q.
+
+Docker allows each microservice to be containerized, which means it can run in a standalone, isolated environment with all its dependencies bundled together. Containers ensure that the microservice operates consistently across different development, testing, and production environments.
+
+![structure](diagram.png)
